@@ -68,3 +68,7 @@ def get_members_in_age_range(start_age, end_age):
         finally:
             cursor.close()
             connection.close()
+
+start_age = input("Enter minimum age for range: ")
+end_age = input("Enter maximum age for range: ")
+get_members_in_age_range(start_age, end_age)
